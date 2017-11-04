@@ -322,15 +322,14 @@
 
 
  			        </div>
- 			       <div class="col-md-3 contact-footer">
- 			         <!--TODO: Make the button do something and send an email-->
- 			           <div class="footer-form">
- 			            <h5>Contact Us</h5>
- 			            <input type="text" placeholder="Name">
- 			            <input type="text" placeholder="E-Mail">
- 			            <textarea placeholder="Message" rows="3"></textarea>
- 			            <button class="submit-bt">Send</button>
- 			        </div>
+							<div class="col-md-3 contact-footer">
+				 					<div class="footer-form">
+				 					 <h5>Contact Us</h5>
+				 					 <input type="text" id="name-s" placeholder="Name">
+				 					 <input type="text" id="email-s" placeholder="Email">
+				 					 <textarea id="message-s" placeholder="Message" rows="3"></textarea>
+				 					 <button class="send" onClick="submitToAPI()">Send</button>
+				 			 </div>
  			        <!--
  			       <div class="col-sm-4 col-md-3 twitter">
  			           TODO: Figure out an elegent way to embed twitter feed (text only)
@@ -374,6 +373,7 @@
  			</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
+<script src="js/apisubmit.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
 <script src="js/responsiveslides.min.js"></script>
