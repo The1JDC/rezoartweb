@@ -122,7 +122,6 @@ input[type="text"], textarea {
   border: 1px solid #b2b2b2;
   padding: 10px;
   font-size: 13px;
-  text-transform: capitalize;
   margin-bottom: 20px;
 }
 
@@ -624,7 +623,6 @@ p.number {
   color: white;
   font-weight: bold;
   font-size: 15px;
-  text-transform: capitalize;
   padding: 10px 25px;
   display: table;
   float: none;
