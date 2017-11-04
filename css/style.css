@@ -521,7 +521,7 @@ a.accordion-toggle {
 .cd-author span {
     float: left;
   text-transform: uppercase;
-  color: #a9cc48;
+  color: #662D91;
   font-weight: 600;
 }
 .cd-author p {
@@ -530,7 +530,7 @@ a.accordion-toggle {
   color: white;
 }
 button.active {
-  background: #a9cc48;
+  background: #662D91;
   color: white;
   border-radius: 0;
   border: none;
@@ -635,11 +635,11 @@ p.number {
 	color: white;
 }
 .popular h4 {
-  background: #a9cc48;
+  background: #662D91;
   color: #444444;
 }
 .popular .buy {
-  background: #a9cc48;
+  background: #662D91;
   color: #444444;
 }
 .pricing li span {
@@ -679,7 +679,7 @@ button.send {
   float: none;
   margin: 0 auto;
   border-radius: 3px;
-  background: #a9cc48;
+  background: #662D91;
   color: #ffffff;
   border: none;
   float: left;
